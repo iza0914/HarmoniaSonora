@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', 'Comic Sans MS', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #145939;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cabecalho {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.cabecalho h1, 
+h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 12px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.cabecalho p {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    margin-bottom: 25px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #21532f;
+    padding: 10px 24px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #1a4225;
+}
+
+.menu a:hover {
+    background-color: #1a4225;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.menu a[href="index.html"] {
+    background-color: #1a4225;
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-secoes {
+    background-color: #ffffff;
+    color: #21532f;
+    padding: 35px 40px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.subtitulo {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #21532f;
+}
+
+.container-secoes p {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.tecla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 100%;
+    max-width: 850px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .tecla {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .tecla {
+        grid-template-columns: 1fr;
+    }
+}
+
+button.tecla {
+    border: none;
+    height: 220px;
+    padding: 15px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+button.tecla img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+button.tecla:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.35);
+    filter: brightness(1.08);
+}
+
+button.tecla:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tecla_vaca {
+    background-color: #83675c;
+}
+
+.tecla_cabra {
+    background-color: #a0a76a;
+}
+
+.tecla_galinha {
+    background-color: #d87d46;
+}
+
+.tecla_pato {
+    background-color: #63a992;
+}
+
+.tecla_porco {
+    background-color: #df91a5;
+}
+
+.tecla_cavalo {
+    background-color: #a46e51;
+}
+
+.tecla_boto {
+    background-color: #ee83a4;
+}
+
+.tecla_leao {
+    background-color: #3b82a6;
+}
+
+.tecla_foca {
+    background-color: #5ea8a0;
+}
+
+.tecla_golfinho {
+    background-color: #52a5d9;
+}
+
+.tecla_beluga {
+    background-color: #8bbec2;
+}
+
+.tecla_orca {
+    background-color: #2b4c6f;
+}
+
+.tecla_monkey {
+    background-color: #8b5a2b;
+}
+
+.tecla_lobo {
+    background-color: #d9822b;
+}
+
+.tecla_elefante {
+    background-color: #788896;
+}
+
+.tecla_pinguim {
+    background-color: #4a6572;
+}
+
+.tecla_coruja {
+    background-color: #a38855;
+}
+
+.tecla_arara {
+    background-color: #e65100;
+}
